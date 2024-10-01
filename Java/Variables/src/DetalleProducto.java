@@ -3,6 +3,7 @@ public class DetalleProducto {
         //Tenemos que indicar el detalle a almacenar de un producto de una tienda en linea. Utilizando buenas prácticas
 
         System.out.println("------------*Bienvenidos a mi tienda*------------");
+        System.out.println("------------*Primer producto*------------");
 
         String nombreProducto = "Vaso";
         System.out.println("nombreProducto = " + nombreProducto);
@@ -14,7 +15,7 @@ public class DetalleProducto {
         System.out.println("isDisponible = " + isDisponible);
 
         // Modificamos el valor de cada variable con nuevos datos.
-
+        System.out.println("------------*Segundo producto*------------");
         nombreProducto = "Plato";
         System.out.println("nombreProducto = " + nombreProducto);
         precioProducto = 2.54f;
