@@ -2,6 +2,8 @@ public class DetalleProducto {
     public static void main(String[] args) {
         //Tenemos que indicar el detalle a almacenar de un producto de una tienda en linea. Utilizando buenas prácticas
 
+        System.out.println("------------*Bienvenidos a mi tienda*------------");
+
         String nombreProducto = "Vaso";
         System.out.println("nombreProducto = " + nombreProducto);
         float precioProducto = 1.55f;
