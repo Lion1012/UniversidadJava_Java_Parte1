@@ -7,6 +7,8 @@ public class DetalleLibro {
         double precio = 500.50;
 
         //Ejercicio practica para mostrar los valores donde personalemnte utilizo \n para el salto de linea.
-        System.out.println("Información del Libro:\n" + "Titulo: " + tituloLibro + "\nCuando se publico el libro?" + cuandoPublicacion + "\nEstá disponible? " + libroDisponible + "\nCuanto vale? " + precio + " Euros");
+        System.out.println("Información del Libro:\n" + "Titulo: " + tituloLibro + "\nCuando se publico el libro? " + cuandoPublicacion + "\nEstá disponible? " + libroDisponible + "\nCuanto vale? " + precio + " Euros");
+        tituloLibro = "El señor de los Anillos"; // modificamos el titulo.
+        System.out.println(tituloLibro);
     }
 }
