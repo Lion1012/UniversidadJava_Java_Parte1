@@ -4,5 +4,6 @@ public class ConcatenacionCadenas {
         var nombre= "Angel";
         var apellido = "Leon";
         var nombreCompleto = nombre + " " + apellido;
+        System.out.println("nombreCompleto = " + nombreCompleto);
     }
 }
