@@ -7,7 +7,7 @@ public class TipoVar {
         //Utilizando var (añade el tipo de dato de forma automatica, es local = solo existe durante el metodo main, si hacemos otro metodo, no tendría uso )
         var nombre2 = "Juan";
         System.out.println("nombre2 = " + nombre2);
-        // Pruebas de otras variables usando
+        // Pruebas de otras variables usando var
         var edad = 24; // se añade tipo int
         System.out.println("edad = " + edad);
         var existe = true; // se añade tipo boolean
