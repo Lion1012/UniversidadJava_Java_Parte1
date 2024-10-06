@@ -3,6 +3,7 @@ public class TipoVar {
         System.out.println("*** Uso de var en Java ***");
         //Sin el uso de var ( se añade apartir de Java 10 )
         String nombre1 = "Angel";
+        System.out.println("nombre1 = " + nombre1);
         //Utilizando var (añade el tipo de dato de forma automatica, es local = solo existe durante el metodo main, si hacemos otro metodo, no tendría uso )
         var nombre2 = "Juan";
         System.out.println("nombre2 = " + nombre2);
